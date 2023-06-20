@@ -1,0 +1,123 @@
+*{
+  margin-top: 5px;
+}
+
+
+
+.hero{
+    width: 90%;
+    margin: auto;
+  }
+
+.navbar{
+    margin: 20 5%;
+    display: flex;
+    align-items: right;
+  }
+  
+  .Zebra {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .Zebra li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 25px;
+  }
+  
+  .Zebra li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+    position: relative;
+  }
+  
+  .Zebra li a::after{
+    content:'';
+    width: 100%;
+    height: 10px;
+    background: #F496BF;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -20px;
+    transition: 0.5s;
+  }
+  
+  .Zebra li a:hover::after {
+    width: 70%;
+  }
+
+
+p {
+    font-family: Montserrat;
+    font-size: 25pt;
+}
+
+h1 {
+    font-family: quantico;
+    font-weight: bolder;
+    font-size: 60pt;
+
+}
+
+h3 {
+    font-family: quantico;
+    font-weight: bolder;
+    font-size: 60pt;
+
+}
+
+h5{
+  font-family: quantico;
+  font-size: 50pt;
+  font-weight: bold;
+}
+
+button {
+    font-family: quantico;
+    background-color: #EE2D81;
+    color: white;
+    padding: 10px 24px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-style: none;
+}
+
+hr {
+    border: 10px solid #EE2D81;
+    border-radius: 5px;
+}
+
+.email {
+    align-content: center;
+}
+
+.collaboration-box{
+  background-color: black;
+  height: 600px;
+}
+
+.collaboration-box h1{
+  color: #EE2D81;
+  font-size: 80px;
+  padding-top: 80px;
+}
+
+.collaboration-box h2{
+  color: azure;
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+.collaboration-box img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news-box{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
